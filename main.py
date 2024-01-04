@@ -23,7 +23,6 @@ def compare_results(random_number, number_lives):
     while number_lives != 0:
         
         user_guess = int(input("Make a guess: "))
-        print(user_guess)
         result = ''
         if user_guess < random_number:
             result = "Too low."
@@ -48,7 +47,7 @@ def game():
     while start is not False:
         clear()
         print(logo)
-        print("Welcome, try to guess the computer choice between 1 and 100.\nTwo levels of difficulties.\n    Good luck :)")
+        print("Welcome, try to guess the computer's choice between 1 and 100.\nTwo levels of difficulties.\n    Good luck :)")
         
         random_number = computer_choice()
 
