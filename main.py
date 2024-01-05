@@ -4,7 +4,7 @@ from art import logo
 
 def computer_choice():
     '''Choose a random number'''
-    return random.choice(range(1,100))
+    return random.randint(1, 100)
 
 def choose_difficulties():
     number_lives = 0
